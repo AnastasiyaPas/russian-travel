@@ -1,0 +1,38 @@
+.lead__caption {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin: 8px 0 0 148px;
+}
+
+@media (max-width: 1200px) {
+  .lead__caption {
+    margin-left: 108px;
+  }
+}
+
+@media (max-width: 1130px) {
+  .lead__caption {
+    margin-left: 73px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .lead__caption {
+    margin-left: 48px;
+  }
+}
+
+@media (max-width: 800px) {
+  .lead__caption {
+    margin-left: 24px;
+  }
+}
+
+@media (max-width: 660px) {
+  .lead__caption {
+    margin-left: 16px;
+  }
+}

@@ -1,0 +1,19 @@
+.places__place {
+  margin-bottom: 80px;
+}
+
+.places__place:last-child {
+  margin: 0;
+}
+
+@media (max-width: 800px) {
+  .places__place {
+    margin-bottom: 72px;
+  }
+}
+
+@media (max-width: 400px) {
+  .places__place {
+    margin-bottom: 50px;
+  }
+}

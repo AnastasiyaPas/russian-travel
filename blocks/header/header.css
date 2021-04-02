@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: Inter, Arial, Helvetica, sans-serif;
 }
 
 @media (max-width: 800px) {

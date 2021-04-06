@@ -17,7 +17,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 710px) {
   .place {
     grid-template-columns: repeat(1, auto);
     grid-template-rows: repeat(4, auto);

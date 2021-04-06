@@ -4,11 +4,12 @@
   font-size: 24px;
   line-height: 28px;
   font-weight: normal;
-  margin-right: 18px;
+  
+  transition: opacity 0.2s ease-in-out;
 }
 
-.lang__link:last-of-type {
-  margin-right: 0;
+.lang__link:hover {
+  opacity: 0.8;
 }
 
 @media (max-width: 370px) {

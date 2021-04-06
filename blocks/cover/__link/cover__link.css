@@ -7,8 +7,9 @@
   justify-content: center;
   align-items: center;
   background-image: url(../../../images/cover-trains.jpg);
-  height: 740px;
-  background-size: 100% 100%;
+  min-height: 740px;
+  background-size: cover;
+  background-position: center;
   z-index: 1;
 }
 
@@ -31,18 +32,18 @@
 
 @media (max-width: 1100px) {
   .cover__link {
-    height: 640px;
+    min-height: 640px;
   }
 }
 
 @media (max-width: 800px) {
   .cover__link {
-    height: 480px;
+    min-height: 480px;
   }
 }
 
 @media (max-width: 550px) {
   .cover__link {
-    height: 200px;
+    min-height: 200px;
   }
 }

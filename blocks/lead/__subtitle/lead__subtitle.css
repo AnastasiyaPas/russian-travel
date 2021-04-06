@@ -2,10 +2,10 @@
   font-weight: normal;
   font-size: 30px;
   line-height: 1.2;
-  /* or 120% */
   text-align: center;
   margin: 0 auto;
   padding-bottom: 64px;
+  max-width: 640px;
 }
 
 @media (max-width: 1050px) {
@@ -21,10 +21,17 @@
   }
 }
 
+@media (max-width: 540px) {
+  .lead__subtitle {
+    max-width: 440px;
+  }
+}
+
 @media (max-width: 430px) {
   .lead__subtitle {
     padding-bottom: 40px;
     font-size: 16px;
     line-height: 20px;
+    max-width: 330px;
   }
 }

@@ -1,0 +1,7 @@
+.lang__list-item {
+  margin-right: 18px;
+}
+
+.lang__list-item:nth-last-child(1) {
+  margin: 0;
+}

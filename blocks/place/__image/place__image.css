@@ -17,11 +17,16 @@
   }
 }
 
+@media (max-width: 710px) {
+  .place__image {
+    margin: 0 auto;
+  }
+}
+
 @media (max-width: 600px) {
   .place__image {
     width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto;
   }
 }

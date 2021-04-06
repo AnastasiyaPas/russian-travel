@@ -4,6 +4,7 @@
   line-height: 100px;
   font-weight: 900;
   text-align: center;
+  max-width: 720px;
 }
 
 @media (max-width: 1050px) {
@@ -17,6 +18,13 @@
     margin-bottom: 20px;
     font-size: 60px;
     line-height: 64px;
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .lead__title {
+    max-width: 500px;
   }
 }
 
@@ -25,5 +33,6 @@
     margin-bottom: 16px;
     font-size: 40px;
     line-height: 44px;
+    max-width: 330px;
   }
 }
